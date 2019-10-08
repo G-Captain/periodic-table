@@ -1,0 +1,84 @@
+.ElementDetail {
+  grid-column: 3 / 13;
+  grid-row: 1 / 4;
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  height: 18vw;
+}
+
+.ElementDetail .close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1vw;
+  cursor: pointer;
+}
+
+/* Element Tile  */
+
+.ElementDetail .ElementTile {
+  padding: 1vw;
+  border-width: 0.2vw;
+  width: 13vw;
+  height: 17.3vw;
+}
+
+.ElementDetail .ElementTile:hover {
+  cursor: default;
+  color: black;
+  border-color: black;
+}
+
+.ElementDetail .ElementTile .number {
+  font-size: 2.5vw;
+}
+
+.ElementDetail .ElementTile .symbol {
+  font-size: 6vw;
+  padding: 1.3vw;
+}
+
+.ElementDetail .ElementTile .name {
+  font-size: 1.7vw;
+}
+
+.ElementDetail .ElementTile .atomic {
+  font-size: 1.7vw;
+}
+
+/* Information Table  */
+
+.ElementDetail .info-container {
+  position: relative;
+  overflow-y: scroll;
+}
+
+.ElementDetail .info {
+  padding: 1vw;
+}
+
+.ElementDetail .info .title-row {
+  display: flex;
+  align-items: baseline;
+}
+
+.ElementDetail .info .title {
+  font-size: 2.5vw;
+  font-weight: bold;
+}
+
+.ElementDetail .info .cat-name {
+  padding: 0 1.5vw;
+}
+
+.ElementDetail .description .appearance {
+  padding: 1vw 0;
+}
+
+.ElementDetail .description .atom-info {
+  padding: 1vw 0;
+}
+
+.ElementDetail .description .summary {
+  padding: 1vw 0;
+}

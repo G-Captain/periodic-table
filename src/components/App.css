@@ -1,0 +1,76 @@
+.App {
+  padding: 1vw 3vw;
+  font-size: 1.2vw;
+}
+
+.periodic-table {
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  grid-column-gap: 0.5vw;
+  grid-row-gap: 0.5vw;
+}
+
+.header {
+  font-size: 2.5vw;
+  font-weight: normal;
+  padding: 1.5vw 0 2.5vw 0;
+  text-align: left;
+}
+
+/* Categories and Groups */
+
+/* Noble Gas  */
+.noble {
+  background: #f3d2e8;
+}
+
+/* Alkali Metal  */
+.alkali {
+  background: #f88379;
+}
+
+/* Alkaline Earth Metal  */
+.alkaline {
+  background: #ffc3a0;
+}
+
+/* Transition Metal  */
+.transition {
+  background: #e9ff08;
+}
+
+/* Polyatomic Non Metal  */
+.polyatomic {
+  background: #a3d2d5;
+}
+
+/* Diatomic Non Metal  */
+.diatomic {
+  background: #a3d5bf;
+}
+
+/* Post Transition Metal  */
+.post-transition {
+  background: #8eb1e7;
+}
+
+/* Metalloid  */
+.metalloid {
+  background: #5ed89c;
+}
+
+/* Lanthanide  */
+.lanthanide {
+  background: #cc99ff;
+}
+
+/* Actinide  */
+.actinide {
+  background: #ad87bd;
+}
+
+/* The Unknown Element  */
+.unknown {
+  background: #ccffff;
+}

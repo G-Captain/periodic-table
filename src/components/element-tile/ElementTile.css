@@ -1,0 +1,28 @@
+.ElementTile {
+  font-size: 0.8vw;
+  border: 0.1vw solid black;
+  text-align: center;
+  width: 4.5vw;
+  height: 6vw;
+}
+
+.ElementTile:hover {
+  cursor: pointer;
+  border-color: red;
+  color: red;
+}
+
+.ElementTile div {
+  padding: 0.1vw 0;
+}
+
+.ElementTile .number {
+  font-size: 1vw;
+  padding: 0.2vw;
+  text-align: start;
+}
+
+.ElementTile .symbol {
+  font-size: 1.4vw;
+  font-weight: bold;
+}
