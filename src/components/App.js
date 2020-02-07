@@ -50,7 +50,7 @@ export class App extends React.Component {
 
     return (
       <div className='App'>
-        <div className='header'>Periodic Table</div>
+        <div className='header'>Periodic Table v 0.1</div>
         <div className='periodic-table'>
           {tableWithOffset.map((el, index) =>
             el ? (
